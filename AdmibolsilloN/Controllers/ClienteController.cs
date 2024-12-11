@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using AdmibolsilloN.Models; // Cambiar al namespace de tus modelos
-using AdmibolsilloN.Data;   // Cambiar al namespace del DbContext
+using AdmibolsilloN.Models.ViewModels; // Cambiar al namespace de tus modelos
+using AdmibolsilloN.Data;
 
 namespace AdmibolsilloN.Controllers
 {
@@ -19,7 +19,7 @@ namespace AdmibolsilloN.Controllers
             }
 
             int userId = (int)Session["id"];
-            var usuario = _context.Usuarios.SingleOrDefault(u => u.Id == userId);
+            var usuario = _context.Usuario.SingleOrDefault(u => u.Id == userId);
 
             if (usuario == null)
             {
@@ -41,7 +41,7 @@ namespace AdmibolsilloN.Controllers
 
         // Acción para manejar el formulario
         [HttpPost]
-        public ActionResult ActualizarPerfil(PerfilUsuarioModel model)
+        public ActionResult ActualizarPerfil(DashboardClienteViewModel model)
         {
             if (!ModelState.IsValid)
             {
@@ -49,7 +49,7 @@ namespace AdmibolsilloN.Controllers
                 return RedirectToAction("DashboardCliente");
             }
 
-            var usuario = _context.Usuarios.SingleOrDefault(u => u.Id == model.Id);
+            var usuario = _context.Usuario.SingleOrDefault(u => u.Id == model.Usuario.Id);
 
             if (usuario == null)
             {
@@ -58,10 +58,10 @@ namespace AdmibolsilloN.Controllers
             }
 
             // Actualizar la información del usuario
-            usuario.Nombre = model.Nombre;
-            usuario.Apellido = model.Apellido;
-            usuario.Correo = model.Correo;
-            usuario.Celular = model.Celular;
+            usuario.Nombre = model.Usuario.Nombre;
+            usuario.Apellido = model.Usuario.Apellido;
+            usuario.Correo = model.Usuario.Correo;
+            usuario.Celular = model.Usuario.Celular;
 
             _context.SaveChanges();
 
