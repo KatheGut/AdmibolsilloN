@@ -1,9 +1,8 @@
 ﻿@{
     ViewData["Title"] = "Iniciar Sesión";
-}
-@{
     Layout = null;
 }
+
 <!-- <h2>Iniciar Sesión</h2>
 
 <form asp-action="Login" method="post">
@@ -16,12 +15,8 @@
         <input type="password" name="contrasena" required />
     </div>
     <button type="submit">Iniciar Sesión</button>
-</form>
-
-@if (ViewBag.Error != null)
-{
-    <p style="color: red">@ViewBag.Error</p>
-} -->
+ </form> 
+ -->
 
 
 <!DOCTYPE html>
@@ -44,7 +39,7 @@
             <a href="@Url.Action("AcercaDe", "Home")">Acerca de</a>
             <a href="@Url.Action("Servicios", "Home")">Servicios</a>
             <a href="@Url.Action("Login", "Account")">Iniciar Sesión</a>
-            <a asp-action="Registro" asp-controller="Login">Registrarse</a>
+            <a asp-action="Auth" asp-controller="Register">Registrarse</a>
             <a href="#contacto">Contacto</a>
         </nav>
 
