@@ -1,0 +1,18 @@
+﻿body {
+}
+.estilogast {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    background-color: #3b5e8c;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 60%;
+}
+
+.card {
+    box-shadow: 0px 0px 5px 1px #4183d9;
+}
