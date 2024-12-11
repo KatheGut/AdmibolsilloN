@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using AdmibolsilloN.Models; // Cambiar al namespace de tus modelos
 using AdmibolsilloN.Data;   // Cambiar al namespace del DbContext
 
