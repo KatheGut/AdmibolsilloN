@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdmibolsilloN")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d895ba45f902a54a210d6ae5df0670900d63d943")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdmibolsilloN")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdmibolsilloN")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

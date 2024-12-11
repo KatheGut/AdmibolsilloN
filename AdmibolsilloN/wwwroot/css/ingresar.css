@@ -1,0 +1,16 @@
+﻿.formulario {
+    margin: auto;
+    width: 30%;
+    padding: 50px;
+    background-color: #4183d9;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 60%;
+}
+
+.card {
+    box-shadow: 0px 0px 5px 1px #4183d9;
+}
