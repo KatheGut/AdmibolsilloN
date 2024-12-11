@@ -1,0 +1,284 @@
+﻿@{
+    Layout = null; // Define que este archivo no usa un layout común si es necesario
+    var usuario = ViewBag.Usuario; // Asume que los datos del usuario están en el ViewBag
+    var cantidadGastos = ViewBag.CantidadGastos; // Cantidad de gastos
+    var cantidadIngresos = ViewBag.CantidadIngresos; // Cantidad de ingresos
+    var cantidadPlanAhorro = ViewBag.CantidadPlanAhorro; // Cantidad de planes de ahorro
+}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido </title>
+    <link rel="stylesheet" href="~/css/cliente.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/Iconos/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.2/css/dataTables.dataTables.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <form action="@Url.Action("RegistrarUsuario", "Controladores")" method="post">
+            <div class="row1">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg">
+                        <img class="navbar-brand" src="~/img/logFinal2.png" />
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="@Url.Action("Index", "Cliente")">
+                                        <i class="fa-solid fa-house"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-bell"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="@Url.Action("Login", "Auth")">
+                                        <i class="fa-solid fa-right-from-bracket"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 menu">
+                    <div class="imgRol text-center mt-4 mb-3">
+                        <img src="@usuario.Foto" width="100px" />
+                    </div>
+                    <div class="infoRol text-center">
+                        <h1>@usuario.Nombre</h1>
+                        <h6>Cliente</h6>
+                    </div>
+                    <div class="botonPerfil text-center">
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Ver Perfil
+                        </button>
+                    </div>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Perfil de Usuario</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h4><br>
+                                                <img src="@usuario.Foto" width="400px" />
+                                            </h4>
+                                            <h4>Rol: Cliente @usuario.TipoUsuarioId</h4>
+                                            <h4>Nombre: @usuario.Nombre</h4>
+                                            <h4>Apellido: @usuario.Apellido</h4>
+                                            <h4>Correo: @usuario.Correo</h4>
+                                            <h4>Celular: @usuario.Celular</h4>
+                                            <h4>Documento: @usuario.Documento</h4>
+                                            <h4>Usuario: @usuario.Usuario</h4>
+                                        </div>
+                                    </div>
+                                    @if (ViewData["msj"] != null)
+                                    {
+                                            <h3>(ViewData["msj"])</h3>
+                                    }
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <a href="@Url.Action("ModificarPerfil", "Controladores", new { id = usuario.Id })" class="btn btn-primary">Modificar Información</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Ingresos y Gastos</h3>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("RegistrarIngreso", "RolCliente")">Registrar Ingreso</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("ConsultarIngreso", "RolCliente")">Consultar Ingresos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("RegistrarGasto", "RolCliente")">Registrar Gasto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("ConsultarGasto", "RolCliente")">Consultar Gastos</a></li>
+                    </ul>
+
+                    <h3>Plan de Ahorro</h3>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("RegistrarPlanA", "RolCliente")">Registrar plan de Ahorro</a></li>
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("ConsultarPlanAhorro", "RolCliente")">Consultar plan de Ahorro</a></li>
+                    </ul>
+
+                    <h3>Tips</h3>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="@Url.Action("ConsultarTip", "RolCliente")">Consultar Tips</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="row pt-3">
+                        <div class="col-md-4 col-sm-2 d-flex justify-content-around text-center">
+                            <a href="#" class="nav-link">
+                                <div class="card bg-dark-subtle border-0" style="width: 12rem;">
+                                    <div class="card-body cardA">
+                                        <div class="card-title fs-1">
+                                            <i class="fa-solid fa-wallet"></i>
+                                        </div>
+                                        <div class="card-text fs-3">
+                                            @cantidadGastos
+                                        </div>
+                                        <p class="Caesar">Gastos Registrados</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4 col-sm-2 d-flex justify-content-around text-center">
+                            <a href="#" class="nav-link">
+                                <div class="card bg-dark-subtle border-0" style="width: 12rem;">
+                                    <div class="card-body cardA">
+                                        <div class="card-title fs-1">
+                                            <i class="fa-solid fa-money-bill-trend-up"></i>
+                                        </div>
+                                        <div class="card-text fs-3">
+                                            @cantidadIngresos
+                                        </div>
+                                        <p class="Caesar">Ingresos Registrados</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4 col-sm-2 d-flex justify-content-around text-center">
+                            <a href="#" class="nav-link">
+                                <div class="card bg-dark-subtle border-0" style="width: 12rem;">
+                                    <div class="card-body cardA">
+                                        <div class="card-title fs-1">
+                                            <i class="fa-solid fa-piggy-bank"></i>
+                                        </div>
+                                        <div class="card-text fs-3">
+                                            @cantidadPlanAhorro
+                                        </div>
+                                        <p class="Caesar">Plan de ahorro</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row pt-5 pb-5 justify-content-around">
+                        <div class="col-md-5 border shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                            <h3 class="mb-3 pb-3 pt-3">Relación Ingresos-Gastos</h3>
+                            <div>
+                                <canvas id="myChart"></canvas>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 border shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                            <h3 class="mb-3 pb-3 pt-3">Servicios más solicitados</h3>
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Servicio</th>
+                                        <th scope="col">Porcentaje</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Plan de Ahorro</td>
+                                        <td>
+                                            <div class="progress" role="progressbar" aria-label="Success example"
+                                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progess-bar bg-success" style="width: 60%;">60%</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Gestión de Ingresos y Gastos</td>
+                                        <td>
+                                            <div class="progress" role="progressbar" aria-label="Info example"
+                                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progess-bar bg-info text-dark" style="width: 80%;">80%</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Tips financieros</td>
+                                        <td>
+                                            <div class="progress" role="progressbar" aria-label="Success example"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progess-bar bg-warning text-dark" style="width: 50%;">50%</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.datatables.net/2.0.2/js/dataTables.js"></script>
+
+    <script>
+        new DataTable('#Usuarios');
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Enero', 'Febrero', 'Marzo', 'Abril'],
+                datasets: [{
+                    label: 'Ingresos',
+                    data: [2000000, 1700000, 2500000, 1500000],
+                    borderWidth: 1,
+                    backgroundColor: '#36a2eb'
+                },
+                {
+                    label: 'Gastos',
+                    data: [1800000, 1900000, 1500000, 1450000],
+                    borderWidth: 1,
+                    backgroundColor: '#FF6384'
+                }
+                ]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -35,7 +35,7 @@ namespace AdmibolsilloN.Controllers
                 if (user.IdTipoUsuario == 2)
                     return RedirectToAction("AdvisorDashboard", "Account");
                 if (user.IdTipoUsuario == 3)
-                    return RedirectToAction("ClientDashboard", "Account");
+                    return RedirectToAction("Index", "Cliente");
             }
 
             ViewBag.Error = "Credenciales inválidas";

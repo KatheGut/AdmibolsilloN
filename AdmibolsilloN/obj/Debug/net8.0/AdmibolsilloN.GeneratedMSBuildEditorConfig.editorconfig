@@ -28,11 +28,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZHZpc29yRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [D:/LENOVO INFO/Documents/GitHub/AdmibolsilloN/AdmibolsilloN/Views/Account/ClientDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDbGllbnREYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/LENOVO INFO/Documents/GitHub/AdmibolsilloN/AdmibolsilloN/Views/Auth/Login.cshtml]
+=======
+[C:/Users/kate_/OneDrive/Documents/GitHub/AdmibolsilloN/AdmibolsilloN/Views/Auth/Login.cshtml]
+>>>>>>> ea1aeb71a67fdc3e44278e5184609e90e1aec20f
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
