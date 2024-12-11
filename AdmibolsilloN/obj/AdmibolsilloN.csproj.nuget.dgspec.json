@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\AdmibolsilloN.csproj": {}
+    "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\AdmibolsilloN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\AdmibolsilloN.csproj": {
+    "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\AdmibolsilloN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\AdmibolsilloN.csproj",
+        "projectUniqueName": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\AdmibolsilloN.csproj",
         "projectName": "AdmibolsilloN",
-        "projectPath": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\AdmibolsilloN.csproj",
-        "packagesPath": "C:\\Users\\kate_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\obj\\",
+        "projectPath": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\AdmibolsilloN.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kate_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

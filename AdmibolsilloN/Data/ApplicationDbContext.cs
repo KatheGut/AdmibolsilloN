@@ -10,5 +10,9 @@ namespace AdmibolsilloN.Data
 
         public DbSet<Usuario> Usuario { get; set; }
         public DbSet<TipoUsuario> TiposUsuario { get; set; }
+        public DbSet<Gastos> Gastos { get; set; }
+        public DbSet<Ingreso> Ingresos { get; set; }
+     
+       
     }
 }

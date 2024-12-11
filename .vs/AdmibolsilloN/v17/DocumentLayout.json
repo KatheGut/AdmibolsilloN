@@ -1,45 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\",
+  "WorkspaceRootPath": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|c:\\users\\kate_\\onedrive\\documents\\github\\admibolsillon\\admibolsillon\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\controllers\\usuariocontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\controllers\\usuariocontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|c:\\users\\kate_\\onedrive\\documents\\github\\admibolsillon\\admibolsillon\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|c:\\users\\kate_\\onedrive\\documents\\github\\admibolsillon\\admibolsillon\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|c:\\users\\kate_\\onedrive\\documents\\github\\admibolsillon\\admibolsillon\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\models\\viewmodels\\planahorro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\models\\viewmodels\\planahorro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|c:\\users\\kate_\\onedrive\\documents\\github\\admibolsillon\\admibolsillon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\models\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\models\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|c:\\users\\kate_\\onedrive\\documents\\github\\admibolsillon\\admibolsillon\\models\\viewmodels\\dashboardclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\models\\gastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\models\\gastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\models\\viewmodels\\dashboardclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\models\\viewmodels\\dashboardclienteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|c:\\users\\kate_\\onedrive\\documents\\github\\admibolsillon\\admibolsillon\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|c:\\users\\kate_\\onedrive\\documents\\github\\admibolsillon\\admibolsillon\\admibolsillon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\admibolsillon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|c:\\users\\kate_\\onedrive\\documents\\github\\admibolsillon\\admibolsillon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|c:\\users\\kate_\\onedrive\\documents\\github\\admibolsillon\\admibolsillon\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\admibolsillon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\admibolsillon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|d:\\lenovo info\\documents\\github\\admibolsillon\\admibolsillon\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5496EB19-967A-4A46-87B8-86CA65EF9CC3}|AdmibolsilloN\\AdmibolsilloN.csproj|solutionrelative:admibolsillon\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,15 +70,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UsuarioController1.cs",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Controllers\\UsuarioController1.cs",
+              "RelativeDocumentMoniker": "AdmibolsilloN\\Controllers\\UsuarioController1.cs",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Controllers\\UsuarioController1.cs",
+              "RelativeToolTip": "AdmibolsilloN\\Controllers\\UsuarioController1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:29:17.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlanAhorro.cs",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\ViewModels\\PlanAhorro.cs",
+              "RelativeDocumentMoniker": "AdmibolsilloN\\Models\\ViewModels\\PlanAhorro.cs",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\ViewModels\\PlanAhorro.cs",
+              "RelativeToolTip": "AdmibolsilloN\\Models\\ViewModels\\PlanAhorro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:26:53.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ingreso.cs",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\Ingreso.cs",
+              "RelativeDocumentMoniker": "AdmibolsilloN\\Models\\Ingreso.cs",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\Ingreso.cs",
+              "RelativeToolTip": "AdmibolsilloN\\Models\\Ingreso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:22:24.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Views\\Auth\\Register.cshtml",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Views\\Auth\\Register.cshtml",
               "RelativeDocumentMoniker": "AdmibolsilloN\\Views\\Auth\\Register.cshtml",
-              "ToolTip": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Views\\Auth\\Register.cshtml",
               "RelativeToolTip": "AdmibolsilloN\\Views\\Auth\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -66,59 +129,75 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "AdmibolsilloN\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "AdmibolsilloN\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T23:02:20.24Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "AdmibolsilloN\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Controllers\\AuthController.cs",
               "RelativeToolTip": "AdmibolsilloN\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T22:50:51.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "AdmibolsilloN\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "AdmibolsilloN\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-11T02:54:08.433Z",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AdmibolsilloN\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AdmibolsilloN\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:16:14.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "Gastos.cs",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\Gastos.cs",
+              "RelativeDocumentMoniker": "AdmibolsilloN\\Models\\Gastos.cs",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\Gastos.cs",
+              "RelativeToolTip": "AdmibolsilloN\\Models\\Gastos.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:20:07.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "AdmibolsilloN\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "AdmibolsilloN\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T23:02:20.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AdmibolsilloN\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AdmibolsilloN\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T02:54:08.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\appsettings.json",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\appsettings.json",
               "RelativeDocumentMoniker": "AdmibolsilloN\\appsettings.json",
-              "ToolTip": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\appsettings.json",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\appsettings.json",
               "RelativeToolTip": "AdmibolsilloN\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -126,23 +205,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DashboardClienteViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\ViewModels\\DashboardClienteViewModel.cs",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\ViewModels\\DashboardClienteViewModel.cs",
               "RelativeDocumentMoniker": "AdmibolsilloN\\Models\\ViewModels\\DashboardClienteViewModel.cs",
-              "ToolTip": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\ViewModels\\DashboardClienteViewModel.cs",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\ViewModels\\DashboardClienteViewModel.cs",
               "RelativeToolTip": "AdmibolsilloN\\Models\\ViewModels\\DashboardClienteViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T03:25:50.302Z"
+              "WhenOpened": "2024-12-11T03:25:50.302Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\Usuario.cs",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "AdmibolsilloN\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\Usuario.cs",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\Usuario.cs",
               "RelativeToolTip": "AdmibolsilloN\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,11 +230,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Program.cs",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Program.cs",
               "RelativeDocumentMoniker": "AdmibolsilloN\\Program.cs",
-              "ToolTip": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Program.cs",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Program.cs",
               "RelativeToolTip": "AdmibolsilloN\\Program.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAuwCsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -162,11 +242,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "AdmibolsilloN.csproj",
-              "DocumentMoniker": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\AdmibolsilloN.csproj",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\AdmibolsilloN.csproj",
               "RelativeDocumentMoniker": "AdmibolsilloN\\AdmibolsilloN.csproj",
-              "ToolTip": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\AdmibolsilloN.csproj",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\AdmibolsilloN.csproj",
               "RelativeToolTip": "AdmibolsilloN\\AdmibolsilloN.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -174,11 +254,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "TipoUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\TipoUsuario.cs",
+              "DocumentMoniker": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\TipoUsuario.cs",
               "RelativeDocumentMoniker": "AdmibolsilloN\\Models\\TipoUsuario.cs",
-              "ToolTip": "C:\\Users\\kate_\\OneDrive\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\TipoUsuario.cs",
+              "ToolTip": "D:\\LENOVO INFO\\Documents\\GitHub\\AdmibolsilloN\\AdmibolsilloN\\Models\\TipoUsuario.cs",
               "RelativeToolTip": "AdmibolsilloN\\Models\\TipoUsuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
