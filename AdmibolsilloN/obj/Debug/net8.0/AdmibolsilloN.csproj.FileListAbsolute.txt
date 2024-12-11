@@ -126,3 +126,47 @@ C:\Users\kate_\OneDrive\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\n
 C:\Users\kate_\OneDrive\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.pdb
 C:\Users\kate_\OneDrive\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.genruntimeconfig.cache
 C:\Users\kate_\OneDrive\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\ref\AdmibolsilloN.dll
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.csproj.AssemblyReference.cache
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.GeneratedMSBuildEditorConfig.editorconfig
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.AssemblyInfoInputs.cache
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.AssemblyInfo.cs
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.csproj.CoreCompileInputs.cache
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.MvcApplicationPartsAssemblyInfo.cache
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.RazorAssemblyInfo.cache
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.RazorAssemblyInfo.cs
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.sourcelink.json
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.dll
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\refint\AdmibolsilloN.dll
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.pdb
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\appsettings.Development.json
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\appsettings.json
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\AdmibolsilloN.staticwebassets.runtime.json
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\AdmibolsilloN.staticwebassets.endpoints.json
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\AdmibolsilloN.exe
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\AdmibolsilloN.deps.json
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\AdmibolsilloN.runtimeconfig.json
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\AdmibolsilloN.dll
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\AdmibolsilloN.pdb
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\MySqlConnector.dll
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\scopedcss\bundle\AdmibolsilloN.styles.css
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\scopedcss\projectbundle\AdmibolsilloN.bundle.scp.css
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\staticwebassets.build.json
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\staticwebassets.development.json
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\staticwebassets\msbuild.AdmibolsilloN.Microsoft.AspNetCore.StaticWebAssets.props
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\staticwebassets\msbuild.AdmibolsilloN.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\staticwebassets\msbuild.build.AdmibolsilloN.props
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AdmibolsilloN.props
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AdmibolsilloN.props
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\staticwebassets.pack.json
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\Admibols.33CB0ED1.Up2Date
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\AdmibolsilloN.genruntimeconfig.cache
+D:\LENOVO INFO\Documents\GitHub\AdmibolsilloN\AdmibolsilloN\obj\Debug\net8.0\ref\AdmibolsilloN.dll

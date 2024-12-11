@@ -1,6 +1,13 @@
+wwwroot\css\cliente.css
 wwwroot\css\ingresar.css
+wwwroot\css\Registrarse.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\ahorros.jpg
+wwwroot\img\ingresos.jpg
+wwwroot\img\logoNuevo2.jpg
+wwwroot\img\main.jpg
+wwwroot\img\tips.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
