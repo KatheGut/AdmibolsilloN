@@ -44,60 +44,20 @@
         </form>
     </div>
 
-    <div class="row">
-        <div class="col-md-3 menu">
-            <div class="imgRol text-center mt-4 mb-3">
-                <img src="@usuario.Foto" width="100px">
-            </div>
-            <div class="infoRol text-center">
-                <h1>@Session["nombre"]</h1>
-                <h6>Cliente</h6>
-            </div>
-            <div class="botonPerfil text-center">
-                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver Perfil</button>
-            </div>
-
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Perfil de Usuario</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4><img src="@usuario.Foto" width="400px"></h4>
-                                    <h4>Rol: Cliente @usuario.IdTipoUsuario</h4>
-                                    <h4>Nombre: @usuario.Nombre</h4>
-                                    <h4>Apellido: @usuario.Apellido</h4>
-                                    <h4>Correo: @usuario.Correo</h4>
-                                    <h4>Celular: @usuario.Celular</h4>
-                                    <h4>Documento: @usuario.Documento</h4>
-                                    <h4>Usuario: @usuario.Usuario</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                            <a href="modificarPerfil/@usuario.Id" class="btn btn-primary">Modificar Información</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+    
+            
             <h3>Ingresos y Gastos</h3>
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="registrarIngreso">Registrar Ingreso</a></li>
-                <li class="nav-item"><a class="nav-link" href="consultarIngreso">Consultar Ingresos</a></li>
-                <li class="nav-item"><a class="nav-link" href="registrarGasto">Registrar Gasto</a></li>
-                <li class="nav-item"><a class="nav-link" href="consultarGasto">Consultar Gastos</a></li>
+            <a asp-action="Auth" asp-controller="Register">Registrar Ingreso</a>
+                <a asp-action="Auth" asp-controller="Register">Consultar Ingresos</a>
+                <a asp-action="Auth" asp-controller="Register">Registrar Gasto</a>
+        <a asp-action="Auth" asp-controller="Register">Consultar Gastos</a>
             </ul>
 
             <h3>Plan de Ahorro</h3>
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="../rolCliente/registrarPlanA">Registrar plan de Ahorro</a></li>
-                <li class="nav-item"><a class="nav-link" href="../rolCliente/consultarPlanAhorro">Consultar plan de Ahorro</a></li>
+        <a asp-action="Auth" asp-controller="Register">Registrar plan de Ahorro</a>
+        <a asp-action="Auth" asp-controller="Register">Consultar plan de Ahorro</a>
             </ul>
 
             <h3>Tips</h3>
@@ -114,7 +74,7 @@
                             <div class="card-title fs-1">
                                 <i class="fa-solid fa-wallet"></i>
                             </div>
-                            <div class="card-text fs-3">@cantidadGastos</div>
+                            <div class="card-text fs-3"></div>
                             <p class="Caesar">Gastos Registrados</p>
                         </div>
                     </div>
@@ -126,7 +86,7 @@
                             <div class="card-title fs-1">
                                 <i class="fa-solid fa-money-bill-trend-up"></i>
                             </div>
-                            <div class="card-text fs-3">@cantidadIngresos</div>
+                            <div class="card-text fs-3"></div>
                             <p class="Caesar">Ingresos Registrados</p>
                         </div>
                     </div>
@@ -138,7 +98,7 @@
                             <div class="card-title fs-1">
                                 <i class="fa-solid fa-piggy-bank"></i>
                             </div>
-                            <div class="card-text fs-3">@cantidadPlanAhorro</div>
+                            <div class="card-text fs-3"></div>
                             <p class="Caesar">Plan de ahorro</p>
                         </div>
                     </div>

@@ -22,14 +22,14 @@ namespace AdmibolsilloN.Controllers
             [HttpGet]
             public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
             {
-                return await _context.Usuario.Include(u => u.TipoUsuario).ToListAsync();
+                return await _context.Usuario.Include(u => u.IdTipoUsuario).ToListAsync();
             }
 
             // GET: api/Usuario/5
             [HttpGet("{id}")]
             public async Task<ActionResult<Usuario>> GetUsuario(int id)
             {
-                var usuario = await _context.Usuario.Include(u => u.TipoUsuario).FirstOrDefaultAsync(u => u.Id == id);
+                var usuario = await _context.Usuario.Include(u => u.IdTipoUsuario).FirstOrDefaultAsync(u => u.Id == id);
 
                 if (usuario == null)
                 {
